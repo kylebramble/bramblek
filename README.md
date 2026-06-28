@@ -1,5 +1,7 @@
-# bramblek CITW 160 Repo
+# bramblek CITW 160 Repository
 Authored by Kyle Bramble
+LCC Email: bramblek@mail.lcc.edu
+
 
 # Hello! 
 I seem to have issues with FTP uploads so to avoid anything further I will upload files here and link them on D2L. 
