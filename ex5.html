@@ -3,124 +3,43 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.35">
     <title>Exercise 5 - Pewtery Barn</title>
-
-    <style>
-        body {
-            background-color: #bdb7a8;
-            background-image: url("images/ex5bg.jpg");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            color: #2f2f2f;
-            line-height: 1.7;
-            margin: 0;
-            padding: 40px;
-        }
-
-        .page-wrapper {
-            max-width: 900px;
-            margin: 0 auto;
-            background-color: rgba(255, 255, 255, 0.72);
-            padding: 45px;
-            border-radius: 14px;
-            border: 2px solid rgba(120, 120, 120, 0.875);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-            backdrop-filter: blur(10px);
-        }
-
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: rgba(110, 120, 125, 0.65);
-            color: rgb(255, 0, 0);
-            border-radius: 10px;
-            margin-bottom: 30px;
-        }
-
-        h1 {
-            font-size: 3rem;
-            letter-spacing: 2px;
-            margin: 0;
-        }
-
-        .tagline {
-            font-size: 1.2rem;
-            font-style: italic;
-            margin-top: 8px;
-        }
-
-        section {
-            margin-bottom: 30px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.55);
-            border-left: 5px solid rgba(110, 120, 125, 0.55);
-            border-radius: 8px;
-        }
-
-        h2 {
-            color: #4d5b63;
-            font-size: 1.6rem;
-            margin-top: 0;
-        }
-
-        p {
-            margin-bottom: 15px;
-        }
-
-        ul {
-            background-color: rgba(235, 235, 235, 0.65);
-            padding: 20px 20px 20px 40px;
-            border-radius: 8px;
-        }
-
-        li {
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        a {
-            color: #36556b;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #1e3d59;
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            padding-top: 20px;
-            border-top: 2px solid rgba(110, 120, 125, 0.35);
-        }
-
-        @media (max-width: 768px) {
-            body {
-                padding: 20px;
-            }
-
-            .page-wrapper {
-                padding: 25px;
-            }
-
-            h1 {
-                font-size: 2.2rem;
-            }
-        }
-    </style>
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="ex5-page">
 
-    <main class="page-wrapper">
+    <main class="container">
 
         <header>
             <h1>Pewtery Barn</h1>
-            <p class="tagline">Specializing in Antique Pewter</p>
+            <p class="title">Specializing in Antique Pewter</p>
         </header>
+
+        <nav>
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Exercises ▼</a>
+
+                    <ul class="dropdown-content">
+                        <li><a href="ex4.html">Exercise 4</a></li>
+                        <li><a href="ex5.html">Exercise 5</a></li>
+                        <li><a href="ex6.html">Exercise 6</a></li>
+                        <li><a href="ex7.html">Exercise 7</a></li>
+                        <li><a href="ex8.html">Exercise 8</a></li>
+                        <li><a href="ex9.html">Exercise 9</a></li>
+                        <li><a href="ex10.html">Exercise 10</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="project.html">Project</a></li>
+
+            </ul>
+        </nav>
 
         <section>
             <h2>Welcome</h2>
@@ -137,36 +56,23 @@
                 <li>Antique Early American Pewter</li>
                 <li>Antique British Export Pewter</li>
                 <li>Antique English and Continental Pewter</li>
-                <li>PLUSExpert Pewter Restoration</li>
+                <li>Expert Pewter Restoration</li>
             </ul>
         </section>
-
-
-
-
-
-
 
         <section>
             <h2>Lay-Away Plans</h2>
 
             <p>
-                We at the Pewtery Barn recognize that in these times of economic
-                uncertainty and radically fluctuating savings and investment dollars
-                that everyone is more cautious with their disposable income and
-                collecting dollars.
+                We at the Pewtery Barn recognize that in these times of economic uncertainty and radically fluctuating savings and investment dollars that everyone is more cautious with their disposable income and collecting dollars.
             </p>
 
             <p>
-                Although unadvertised, we always have been willing to work with any
-                customers on mutually agreed upon lay-away plans. This note is just to
-                say if you see an item that you like but are being cautious with your
-                collecting budget, feel free to ask about a confidential lay-away plan.
+                Although unadvertised, we always have been willing to work with any customers on mutually agreed upon lay-away plans. This note is just to say if you see an item that you like but are being cautious with your collecting budget, feel free to ask about a confidential lay-away plan.
             </p>
 
             <p>
-                And as always thank you for your interest in our website and fine early
-                Antique Pewter. We appreciate your business.
+                And as always thank you for your interest in our website and fine early Antique Pewter. We appreciate your business.
             </p>
         </section>
 
@@ -184,22 +90,15 @@
             </p>
         </section>
 
-
-
-
         <section>
             <h2>Pewter Collectors' Club of America</h2>
 
             <p>
-                Anyone with an interest in collecting Early American Pewter may
-                consider joining the Pewter Collectors' Club of America (PCCA).
+                Anyone with an interest in collecting Early American Pewter may consider joining the Pewter Collectors' Club of America.
             </p>
 
             <p>
-                Visit the PCCA website for a wealth of information on Early American
-                Pewter including a comprehensive glossary of terms and the most
-                complete bibliography of reference books and catalogs on Early
-                American Pewter.
+                Visit the PCCA website for information on Early American Pewter, including a glossary of terms and a bibliography of reference books and catalogs.
             </p>
 
             <p>
@@ -209,21 +108,8 @@
             </p>
         </section>
 
-
-
-        <footer>
-            <p>
-                <a href="index.html">Return to Homepage</a>
-            </p>
-        </footer>
-
-
-
-
-
+  
     </main>
-
-
 
 </body>
 
