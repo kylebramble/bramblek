@@ -1,6 +1,6 @@
 # bramblek CITW 160 Repository
-Authored by Kyle Bramble
-LCC Email: bramblek@mail.lcc.edu
+<p> Authored by Kyle Bramble <p/>
+<br> LCC Email: bramblek@mail.lcc.edu
 
 
 # Hello! 
